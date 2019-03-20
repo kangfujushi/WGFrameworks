@@ -51,6 +51,14 @@
 		4D8CE10C2242116D00839C90 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE0812241F2A400839C90 /* SDWebImage.framework */; };
 		4D8CE10D2242116D00839C90 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE0812241F2A400839C90 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D8CE10F2242118B00839C90 /* WGCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE08B22420CAF00839C90 /* WGCycleScrollView.framework */; };
+		4D8CE15C22421A9100839C90 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE15422421A9000839C90 /* WSDatePickerView.m */; };
+		4D8CE15D22421A9100839C90 /* WSDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE15522421A9000839C90 /* WSDatePickerView.h */; };
+		4D8CE15E22421A9100839C90 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE15622421A9000839C90 /* UIView+Extension.h */; };
+		4D8CE15F22421A9100839C90 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE15722421A9000839C90 /* NSDate+Extension.h */; };
+		4D8CE16022421A9100839C90 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE15822421A9000839C90 /* NSDate+Extension.m */; };
+		4D8CE16122421A9100839C90 /* WGDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE15922421A9100839C90 /* WGDatePickerView.h */; };
+		4D8CE16222421A9100839C90 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE15A22421A9100839C90 /* UIView+Extension.m */; };
+		4D8CE16322421A9100839C90 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CE15B22421A9100839C90 /* WSDatePickerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -115,6 +123,16 @@
 		4D8CE0F322420D7500839C90 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
 		4D8CE0F422420D7500839C90 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
 		4D8CE0F522420D7500839C90 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		4D8CE14C22421A7C00839C90 /* WGDatePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WGDatePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8CE14F22421A7C00839C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8CE15422421A9000839C90 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		4D8CE15522421A9000839C90 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		4D8CE15622421A9000839C90 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		4D8CE15722421A9000839C90 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		4D8CE15822421A9000839C90 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		4D8CE15922421A9100839C90 /* WGDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGDatePickerView.h; sourceTree = "<group>"; };
+		4D8CE15A22421A9100839C90 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		4D8CE15B22421A9100839C90 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +163,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D8CE14922421A7C00839C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -154,6 +179,7 @@
 				4D1E99072240ECB50045A16F /* WGFrameworks */,
 				4D8CE0502241EBD600839C90 /* WGJiayouViews */,
 				4D8CE08C22420CAF00839C90 /* WGCycleScrollView */,
+				4D8CE14D22421A7C00839C90 /* WGDatePickerView */,
 				4D8CE0802241F26700839C90 /* Frameworks */,
 				4D1E99062240ECB50045A16F /* Products */,
 			);
@@ -165,6 +191,7 @@
 				4D1E99052240ECB50045A16F /* WGFrameworks.app */,
 				4D8CE04F2241EBD600839C90 /* WGJiayouViews.framework */,
 				4D8CE08B22420CAF00839C90 /* WGCycleScrollView.framework */,
+				4D8CE14C22421A7C00839C90 /* WGDatePickerView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,6 +299,22 @@
 			path = PageControl;
 			sourceTree = "<group>";
 		};
+		4D8CE14D22421A7C00839C90 /* WGDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CE15922421A9100839C90 /* WGDatePickerView.h */,
+				4D8CE15722421A9000839C90 /* NSDate+Extension.h */,
+				4D8CE15822421A9000839C90 /* NSDate+Extension.m */,
+				4D8CE15622421A9000839C90 /* UIView+Extension.h */,
+				4D8CE15A22421A9100839C90 /* UIView+Extension.m */,
+				4D8CE15522421A9000839C90 /* WSDatePickerView.h */,
+				4D8CE15422421A9000839C90 /* WSDatePickerView.m */,
+				4D8CE15B22421A9100839C90 /* WSDatePickerView.xib */,
+				4D8CE14F22421A7C00839C90 /* Info.plist */,
+			);
+			path = WGDatePickerView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -302,6 +345,17 @@
 				4D8CE10322420D7500839C90 /* TAPageControl.h in Headers */,
 				4D8CE10122420D7500839C90 /* TADotView.h in Headers */,
 				4D8CE10222420D7500839C90 /* TAAnimatedDotView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8CE14722421A7C00839C90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8CE15D22421A9100839C90 /* WSDatePickerView.h in Headers */,
+				4D8CE16122421A9100839C90 /* WGDatePickerView.h in Headers */,
+				4D8CE15F22421A9100839C90 /* NSDate+Extension.h in Headers */,
+				4D8CE15E22421A9100839C90 /* UIView+Extension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +417,24 @@
 			productReference = 4D8CE08B22420CAF00839C90 /* WGCycleScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4D8CE14B22421A7C00839C90 /* WGDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8CE15122421A7C00839C90 /* Build configuration list for PBXNativeTarget "WGDatePickerView" */;
+			buildPhases = (
+				4D8CE14722421A7C00839C90 /* Headers */,
+				4D8CE14822421A7C00839C90 /* Sources */,
+				4D8CE14922421A7C00839C90 /* Frameworks */,
+				4D8CE14A22421A7C00839C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGDatePickerView;
+			productName = WGDatePickerView;
+			productReference = 4D8CE14C22421A7C00839C90 /* WGDatePickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -380,6 +452,9 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					4D8CE08A22420CAF00839C90 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D8CE14B22421A7C00839C90 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -400,6 +475,7 @@
 				4D1E99042240ECB50045A16F /* WGFrameworks */,
 				4D8CE04E2241EBD600839C90 /* WGJiayouViews */,
 				4D8CE08A22420CAF00839C90 /* WGCycleScrollView */,
+				4D8CE14B22421A7C00839C90 /* WGDatePickerView */,
 			);
 		};
 /* End PBXProject section */
@@ -428,6 +504,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8CE14A22421A7C00839C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8CE16322421A9100839C90 /* WSDatePickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +572,16 @@
 				4D8CE0FE22420D7500839C90 /* TAPageControl.m in Sources */,
 				4D8CE0F822420D7500839C90 /* UIView+SDExtension.m in Sources */,
 				4D8CE0F922420D7500839C90 /* SDCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8CE14822421A7C00839C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8CE16222421A9100839C90 /* UIView+Extension.m in Sources */,
+				4D8CE16022421A9100839C90 /* NSDate+Extension.m in Sources */,
+				4D8CE15C22421A9100839C90 /* WSDatePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,6 +895,62 @@
 			};
 			name = Release;
 		};
+		4D8CE15222421A7C00839C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WGDatePickerView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D8CE15322421A7C00839C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WGDatePickerView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -836,6 +986,15 @@
 			buildConfigurations = (
 				4D8CE09022420CAF00839C90 /* Debug */,
 				4D8CE09122420CAF00839C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8CE15122421A7C00839C90 /* Build configuration list for PBXNativeTarget "WGDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8CE15222421A7C00839C90 /* Debug */,
+				4D8CE15322421A7C00839C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
