@@ -9,7 +9,7 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>WGDatePickerView.xcscheme_^#shared#^_</key>
+		<key>WGDatePickerView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
@@ -29,12 +29,12 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>WGGuidePageHUD.xcscheme_^#shared#^_</key>
+		<key>WGGuidePageHUD.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
-		<key>WGImagePickerController.xcscheme_^#shared#^_</key>
+		<key>WGImagePickerController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
@@ -44,12 +44,12 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>WGLayoutPopGesture.xcscheme_^#shared#^_</key>
+		<key>WGLayoutPopGesture.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>WGPhotoBrowser.xcscheme_^#shared#^_</key>
+		<key>WGPhotoBrowser.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
