@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import <WGJiayouViews/WGPayView.h>
 #import <WGCycleScrollView/WGCycleScrollView.h>
+#import <WGDatePickerView/WGDatePickerView.h>
+#import <WGImagePickerController/WGImagePickerController.h>
+#import <WGPhotoBrowser/WGPhotoBrowser.h>
 
 @interface ViewController ()
 
@@ -24,8 +27,17 @@
 //    [WGPayView showPayView:@"油站支付" Price:1200.88 Block:^(NSInteger selectIndex) {
 //    }];
     
-    SDCycleScrollView *cyc = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, 414, 130) imageNamesGroup:@[]];
-    [self.view addSubview:cyc];
+//    SDCycleScrollView *cyc = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, 414, 130) imageNamesGroup:@[]];
+//    [self.view addSubview:cyc];
+    
+//    [[[WSDatePickerView alloc] initWithDateStyle:DateStyleShowYearMonthDayHourMinute scrollToDate:[NSDate date] CompleteBlock:^(NSDate *date) {
+//    }] show];
+    
+//    [WGImagePickerController manyImagePicker:self Count:9 Block:^(NSArray * _Nonnull images) {
+//    }];
+    
+//    [HUPhotoBrowser showFromImageView:[UIImageView new] withImages:@[] atIndex:0];
+    
     
 }
 
