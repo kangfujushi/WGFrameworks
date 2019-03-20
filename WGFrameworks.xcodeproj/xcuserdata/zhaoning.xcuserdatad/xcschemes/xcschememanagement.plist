@@ -14,7 +14,7 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>WGEffectView.xcscheme_^#shared#^_</key>
+		<key>WGEffectView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
@@ -44,7 +44,7 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>WGLayoutPopGesture.xcscheme</key>
+		<key>WGLayoutPopGesture.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
