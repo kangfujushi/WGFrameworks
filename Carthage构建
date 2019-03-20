@@ -1,0 +1,5 @@
+cd ~/Documents/WGFrameworks
+carthage build --no-skip-current
+cd ./Carthage/Build/iOS/
+find ./ -type f -name "*.bcsymbolmap" -exec rm -rf {} \;
+find ./ -name "*.dSYM" -exec rm -rf {} \;
