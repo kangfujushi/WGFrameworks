@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4D8CE00D2241CE8100839C90"
+               BlueprintIdentifier = "4D8CE04E2241EBD600839C90"
                BuildableName = "WGJiayouViews.framework"
                BlueprintName = "WGJiayouViews"
                ReferencedContainer = "container:WGFrameworks.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D8CE00D2241CE8100839C90"
+            BlueprintIdentifier = "4D8CE04E2241EBD600839C90"
             BuildableName = "WGJiayouViews.framework"
             BlueprintName = "WGJiayouViews"
             ReferencedContainer = "container:WGFrameworks.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4D8CE00D2241CE8100839C90"
+            BlueprintIdentifier = "4D8CE04E2241EBD600839C90"
             BuildableName = "WGJiayouViews.framework"
             BlueprintName = "WGJiayouViews"
             ReferencedContainer = "container:WGFrameworks.xcodeproj">
