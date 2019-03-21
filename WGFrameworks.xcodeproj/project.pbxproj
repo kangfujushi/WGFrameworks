@@ -114,7 +114,7 @@
 		4D8CE1FB22421C3300839C90 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE1F022421C3200839C90 /* UITableView+FDTemplateLayoutCell.m */; };
 		4D8CE1FC22421C3300839C90 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE1F122421C3200839C90 /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8CE1FD22421C3300839C90 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE1F222421C3300839C90 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D8CE20222421CF600839C90 /* WGOilManagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE1FF22421CF600839C90 /* WGOilManagerView.h */; };
+		4D8CE20222421CF600839C90 /* WGOilManagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE1FF22421CF600839C90 /* WGOilManagerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8CE20322421CF600839C90 /* WGOilManagerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CE20022421CF600839C90 /* WGOilManagerView.xib */; };
 		4D8CE20422421CF600839C90 /* WGOilManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE20122421CF600839C90 /* WGOilManagerView.m */; };
 		4D8CE20E22421D8F00839C90 /* WGPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE20C22421D8F00839C90 /* WGPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -693,13 +693,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8CE0732241EBEF00839C90 /* WGJiayouViews.h in Headers */,
+				4D8CE20222421CF600839C90 /* WGOilManagerView.h in Headers */,
 				4D8CE06F2241EBEF00839C90 /* WWAnnotationView.h in Headers */,
 				4D8CE0712241EBEF00839C90 /* KCAnnotation.h in Headers */,
 				4D8CE06B2241EBEF00839C90 /* LMJScrollTextView2.h in Headers */,
 				4D8CE0752241EBEF00839C90 /* WGPayView.h in Headers */,
 				4D8CE06C2241EBEF00839C90 /* WGMapView.h in Headers */,
 				4D8CE0702241EBEF00839C90 /* JZLocationConverter.h in Headers */,
-				4D8CE20222421CF600839C90 /* WGOilManagerView.h in Headers */,
 				4D8CE0692241EBEF00839C90 /* WGScrollTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
