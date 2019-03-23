@@ -13,6 +13,22 @@
 		4D1E99122240ECB70045A16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E99112240ECB70045A16F /* Assets.xcassets */; };
 		4D1E99152240ECB70045A16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E99132240ECB70045A16F /* LaunchScreen.storyboard */; };
 		4D1E99182240ECB70045A16F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E99172240ECB70045A16F /* main.m */; };
+		4D212B092245DAF00016A9BE /* WGJiayouViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE04F2241EBD600839C90 /* WGJiayouViews.framework */; };
+		4D212B0A2245DAF00016A9BE /* WGJiayouViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE04F2241EBD600839C90 /* WGJiayouViews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D212B0D2245DAF00016A9BE /* WGCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE08B22420CAF00839C90 /* WGCycleScrollView.framework */; };
+		4D212B0E2245DAF00016A9BE /* WGCycleScrollView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE08B22420CAF00839C90 /* WGCycleScrollView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D212B112245DAF10016A9BE /* WGDatePickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE14C22421A7C00839C90 /* WGDatePickerView.framework */; };
+		4D212B122245DAF10016A9BE /* WGDatePickerView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE14C22421A7C00839C90 /* WGDatePickerView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D212B152245DAF10016A9BE /* WGEffectView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE16922421B7F00839C90 /* WGEffectView.framework */; };
+		4D212B162245DAF10016A9BE /* WGEffectView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE16922421B7F00839C90 /* WGEffectView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D212B1D2245DAF10016A9BE /* WGLayoutPopGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE1E022421C1F00839C90 /* WGLayoutPopGesture.framework */; };
+		4D212B1E2245DAF10016A9BE /* WGLayoutPopGesture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE1E022421C1F00839C90 /* WGLayoutPopGesture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D212B212245DAF10016A9BE /* WGPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE20A22421D8F00839C90 /* WGPhotoBrowser.framework */; };
+		4D212B222245DAF10016A9BE /* WGPhotoBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE20A22421D8F00839C90 /* WGPhotoBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D212B252245DAF10016A9BE /* WGGuidePageHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE23422421DDE00839C90 /* WGGuidePageHUD.framework */; };
+		4D212B262245DAF10016A9BE /* WGGuidePageHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE23422421DDE00839C90 /* WGGuidePageHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D212B292245DD0D0016A9BE /* WGImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE18022421BCB00839C90 /* WGImagePickerController.framework */; };
+		4D212B2A2245DD0D0016A9BE /* WGImagePickerController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE18022421BCB00839C90 /* WGImagePickerController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D8CE0692241EBEF00839C90 /* WGScrollTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE0582241EBEF00839C90 /* WGScrollTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8CE06A2241EBEF00839C90 /* LMJScrollTextView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE0592241EBEF00839C90 /* LMJScrollTextView2.m */; };
 		4D8CE06B2241EBEF00839C90 /* LMJScrollTextView2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE05A2241EBEF00839C90 /* LMJScrollTextView2.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,7 +44,6 @@
 		4D8CE0752241EBEF00839C90 /* WGPayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE0662241EBEF00839C90 /* WGPayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8CE0762241EBEF00839C90 /* WGPayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CE0672241EBEF00839C90 /* WGPayView.xib */; };
 		4D8CE0772241EBEF00839C90 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CE0682241EBEF00839C90 /* Resources.bundle */; };
-		4D8CE07A2241EDD600839C90 /* WGJiayouViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE04F2241EBD600839C90 /* WGJiayouViews.framework */; };
 		4D8CE0852241F2CC00839C90 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE0822241F2A400839C90 /* Masonry.framework */; };
 		4D8CE0F622420D7500839C90 /* WGCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE0E622420D7400839C90 /* WGCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8CE0F722420D7500839C90 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE0E722420D7400839C90 /* SDCycleScrollView.m */; };
@@ -50,7 +65,6 @@
 		4D8CE10B2242116D00839C90 /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE0822241F2A400839C90 /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D8CE10C2242116D00839C90 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE0812241F2A400839C90 /* SDWebImage.framework */; };
 		4D8CE10D2242116D00839C90 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE0812241F2A400839C90 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4D8CE10F2242118B00839C90 /* WGCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE08B22420CAF00839C90 /* WGCycleScrollView.framework */; };
 		4D8CE15C22421A9100839C90 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE15422421A9000839C90 /* WSDatePickerView.m */; };
 		4D8CE15D22421A9100839C90 /* WSDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE15522421A9000839C90 /* WSDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8CE15E22421A9100839C90 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE15622421A9000839C90 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -138,14 +152,67 @@
 		4D8CE24322421DEC00839C90 /* DHGuidePageHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8CE23E22421DEC00839C90 /* DHGuidePageHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D8CE24422421DEC00839C90 /* DHGifImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CE23F22421DEC00839C90 /* DHGifImageOperation.m */; };
 		4D8CE24522421DEC00839C90 /* GuideImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CE24022421DEC00839C90 /* GuideImage.bundle */; };
-		4D8CE24622421F9F00839C90 /* WGDatePickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE14C22421A7C00839C90 /* WGDatePickerView.framework */; };
-		4D8CE24722421F9F00839C90 /* WGEffectView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE16922421B7F00839C90 /* WGEffectView.framework */; };
-		4D8CE24822421F9F00839C90 /* WGGuidePageHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE23422421DDE00839C90 /* WGGuidePageHUD.framework */; };
-		4D8CE24922421F9F00839C90 /* WGImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE18022421BCB00839C90 /* WGImagePickerController.framework */; };
-		4D8CE24A22421F9F00839C90 /* WGLayoutPopGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE1E022421C1F00839C90 /* WGLayoutPopGesture.framework */; };
-		4D8CE24B22421F9F00839C90 /* WGPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE20A22421D8F00839C90 /* WGPhotoBrowser.framework */; };
 		4D8CE24C224220F100839C90 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8CE0812241F2A400839C90 /* SDWebImage.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D212B0B2245DAF00016A9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1E98FD2240ECB50045A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE04E2241EBD600839C90;
+			remoteInfo = WGJiayouViews;
+		};
+		4D212B0F2245DAF10016A9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1E98FD2240ECB50045A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE08A22420CAF00839C90;
+			remoteInfo = WGCycleScrollView;
+		};
+		4D212B132245DAF10016A9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1E98FD2240ECB50045A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE14B22421A7C00839C90;
+			remoteInfo = WGDatePickerView;
+		};
+		4D212B172245DAF10016A9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1E98FD2240ECB50045A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE16822421B7F00839C90;
+			remoteInfo = WGEffectView;
+		};
+		4D212B1F2245DAF10016A9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1E98FD2240ECB50045A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE1DF22421C1F00839C90;
+			remoteInfo = WGLayoutPopGesture;
+		};
+		4D212B232245DAF10016A9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1E98FD2240ECB50045A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE20922421D8F00839C90;
+			remoteInfo = WGPhotoBrowser;
+		};
+		4D212B272245DAF10016A9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1E98FD2240ECB50045A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE23322421DDE00839C90;
+			remoteInfo = WGGuidePageHUD;
+		};
+		4D212B2B2245DD0D0016A9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1E98FD2240ECB50045A16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8CE17F22421BCB00839C90;
+			remoteInfo = WGImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4D8CE10E2242116D00839C90 /* Embed Frameworks */ = {
@@ -154,8 +221,16 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				4D212B162245DAF10016A9BE /* WGEffectView.framework in Embed Frameworks */,
+				4D212B0A2245DAF00016A9BE /* WGJiayouViews.framework in Embed Frameworks */,
+				4D212B262245DAF10016A9BE /* WGGuidePageHUD.framework in Embed Frameworks */,
+				4D212B1E2245DAF10016A9BE /* WGLayoutPopGesture.framework in Embed Frameworks */,
 				4D8CE10D2242116D00839C90 /* SDWebImage.framework in Embed Frameworks */,
+				4D212B122245DAF10016A9BE /* WGDatePickerView.framework in Embed Frameworks */,
 				4D8CE10B2242116D00839C90 /* Masonry.framework in Embed Frameworks */,
+				4D212B0E2245DAF00016A9BE /* WGCycleScrollView.framework in Embed Frameworks */,
+				4D212B2A2245DD0D0016A9BE /* WGImagePickerController.framework in Embed Frameworks */,
+				4D212B222245DAF10016A9BE /* WGPhotoBrowser.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,16 +390,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8CE24622421F9F00839C90 /* WGDatePickerView.framework in Frameworks */,
-				4D8CE24722421F9F00839C90 /* WGEffectView.framework in Frameworks */,
-				4D8CE24822421F9F00839C90 /* WGGuidePageHUD.framework in Frameworks */,
-				4D8CE24922421F9F00839C90 /* WGImagePickerController.framework in Frameworks */,
-				4D8CE24A22421F9F00839C90 /* WGLayoutPopGesture.framework in Frameworks */,
-				4D8CE24B22421F9F00839C90 /* WGPhotoBrowser.framework in Frameworks */,
-				4D8CE10F2242118B00839C90 /* WGCycleScrollView.framework in Frameworks */,
+				4D212B152245DAF10016A9BE /* WGEffectView.framework in Frameworks */,
+				4D212B092245DAF00016A9BE /* WGJiayouViews.framework in Frameworks */,
+				4D212B252245DAF10016A9BE /* WGGuidePageHUD.framework in Frameworks */,
+				4D212B1D2245DAF10016A9BE /* WGLayoutPopGesture.framework in Frameworks */,
 				4D8CE10A2242116D00839C90 /* Masonry.framework in Frameworks */,
+				4D212B112245DAF10016A9BE /* WGDatePickerView.framework in Frameworks */,
 				4D8CE10C2242116D00839C90 /* SDWebImage.framework in Frameworks */,
-				4D8CE07A2241EDD600839C90 /* WGJiayouViews.framework in Frameworks */,
+				4D212B0D2245DAF00016A9BE /* WGCycleScrollView.framework in Frameworks */,
+				4D212B292245DD0D0016A9BE /* WGImagePickerController.framework in Frameworks */,
+				4D212B212245DAF10016A9BE /* WGPhotoBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,6 +896,14 @@
 			buildRules = (
 			);
 			dependencies = (
+				4D212B0C2245DAF00016A9BE /* PBXTargetDependency */,
+				4D212B102245DAF10016A9BE /* PBXTargetDependency */,
+				4D212B142245DAF10016A9BE /* PBXTargetDependency */,
+				4D212B182245DAF10016A9BE /* PBXTargetDependency */,
+				4D212B202245DAF10016A9BE /* PBXTargetDependency */,
+				4D212B242245DAF10016A9BE /* PBXTargetDependency */,
+				4D212B282245DAF10016A9BE /* PBXTargetDependency */,
+				4D212B2C2245DD0D0016A9BE /* PBXTargetDependency */,
 			);
 			name = WGFrameworks;
 			productName = WGFrameworks;
@@ -1251,6 +1334,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4D212B0C2245DAF00016A9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE04E2241EBD600839C90 /* WGJiayouViews */;
+			targetProxy = 4D212B0B2245DAF00016A9BE /* PBXContainerItemProxy */;
+		};
+		4D212B102245DAF10016A9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE08A22420CAF00839C90 /* WGCycleScrollView */;
+			targetProxy = 4D212B0F2245DAF10016A9BE /* PBXContainerItemProxy */;
+		};
+		4D212B142245DAF10016A9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE14B22421A7C00839C90 /* WGDatePickerView */;
+			targetProxy = 4D212B132245DAF10016A9BE /* PBXContainerItemProxy */;
+		};
+		4D212B182245DAF10016A9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE16822421B7F00839C90 /* WGEffectView */;
+			targetProxy = 4D212B172245DAF10016A9BE /* PBXContainerItemProxy */;
+		};
+		4D212B202245DAF10016A9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE1DF22421C1F00839C90 /* WGLayoutPopGesture */;
+			targetProxy = 4D212B1F2245DAF10016A9BE /* PBXContainerItemProxy */;
+		};
+		4D212B242245DAF10016A9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE20922421D8F00839C90 /* WGPhotoBrowser */;
+			targetProxy = 4D212B232245DAF10016A9BE /* PBXContainerItemProxy */;
+		};
+		4D212B282245DAF10016A9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE23322421DDE00839C90 /* WGGuidePageHUD */;
+			targetProxy = 4D212B272245DAF10016A9BE /* PBXContainerItemProxy */;
+		};
+		4D212B2C2245DD0D0016A9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8CE17F22421BCB00839C90 /* WGImagePickerController */;
+			targetProxy = 4D212B2B2245DD0D0016A9BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		4D1E990E2240ECB50045A16F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1395,7 +1521,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = WGFrameworks/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1418,7 +1544,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = WGFrameworks/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1436,6 +1562,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1469,6 +1596,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1502,6 +1630,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1534,6 +1663,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1566,6 +1696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1594,6 +1725,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1622,6 +1754,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1634,6 +1767,7 @@
 					"@loader_path/Frameworks",
 				);
 				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGEffectView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1650,6 +1784,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1662,6 +1797,7 @@
 					"@loader_path/Frameworks",
 				);
 				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaoning.WGEffectView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1678,6 +1814,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1710,6 +1847,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1742,6 +1880,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1770,6 +1909,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1798,6 +1938,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1826,6 +1967,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1854,6 +1996,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1882,6 +2025,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8674L53B22;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

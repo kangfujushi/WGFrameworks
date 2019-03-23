@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XT5-1g-ShH">
-                                <rect key="frame" x="123.5" y="269.5" width="128" height="128"/>
+                                <rect key="frame" x="123.5" y="229.5" width="128" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="yqY-lu-DgX"/>
@@ -46,11 +46,20 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UER-9a-ord">
+                                <rect key="frame" x="123.5" y="377.5" width="128" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XT5-1g-ShH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CyJ-FX-Py6"/>
-                            <constraint firstItem="XT5-1g-ShH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rkO-Ea-KPg"/>
+                            <constraint firstItem="UER-9a-ord" firstAttribute="width" secondItem="XT5-1g-ShH" secondAttribute="width" id="c1u-lA-pFx"/>
+                            <constraint firstItem="UER-9a-ord" firstAttribute="centerX" secondItem="XT5-1g-ShH" secondAttribute="centerX" id="mzd-ZL-tiT"/>
+                            <constraint firstItem="UER-9a-ord" firstAttribute="top" secondItem="XT5-1g-ShH" secondAttribute="bottom" constant="20" id="oTb-xF-ek9"/>
+                            <constraint firstItem="XT5-1g-ShH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40" id="rkO-Ea-KPg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

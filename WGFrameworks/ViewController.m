@@ -33,8 +33,9 @@
 //    [[[WSDatePickerView alloc] initWithDateStyle:DateStyleShowYearMonthDayHourMinute scrollToDate:[NSDate date] CompleteBlock:^(NSDate *date) {
 //    }] show];
     
-//    [WGImagePickerController manyImagePicker:self Count:9 Block:^(NSArray * _Nonnull images) {
-//    }];
+    [WGImagePickerController singleImagePicker:self Crop:NO Circle:NO Radius:0 Block:^(UIImage * _Nonnull image) {
+        NSLog(@"asd");
+    }];
     
 //    [HUPhotoBrowser showFromImageView:[UIImageView new] withImages:@[] atIndex:0];
     
