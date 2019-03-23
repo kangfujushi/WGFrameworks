@@ -638,8 +638,8 @@
     if (self.singleBlock) {
         self.singleBlock(image);
     } else if (self.manyBlock) {
-        
-    }self.manyBlock(_selectedPhotos);
+        self.manyBlock(_selectedPhotos);
+    }
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
