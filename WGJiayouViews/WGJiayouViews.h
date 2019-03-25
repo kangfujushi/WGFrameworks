@@ -22,3 +22,4 @@ FOUNDATION_EXPORT const unsigned char WGJiayouViewsVersionString[];
 #import "WGPayView.h"
 #import "WGMapView.h"
 #import "WGScrollTextView.h"
+#import "WGOilManagerView.h"

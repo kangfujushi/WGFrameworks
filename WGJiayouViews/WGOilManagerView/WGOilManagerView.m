@@ -24,7 +24,7 @@
 @implementation WGOilManagerView
 
 + (void)showOilManagerView:(NSString *)title Index:(NSInteger)index Price:(NSString *)price Size:(NSString *)size Block:(void(^)(NSDictionary *info))block {
-    WGOilManagerView *view = [[NSBundle mainBundle] loadNibNamed:@"WGOilManagerView" owner:nil options:nil].firstObject;
+    WGOilManagerView *view = [[NSBundle bundleWithIdentifier:@"com.zhaoning.WGJiayouViews"] loadNibNamed:@"WGOilManagerView" owner:nil options:nil].firstObject;
     view.block = block;
     view.title.text = title;
     view.price.text = price;
