@@ -56,12 +56,13 @@
                                 <constraint firstAttribute="height" constant="30" id="Cob-PY-MwE"/>
                                 <constraint firstAttribute="width" constant="30" id="yFS-bq-0DK"/>
                             </constraints>
-                            <state key="normal" image="choose_default"/>
+                            <state key="normal" image="choose_default.png"/>
+                            <state key="selected" image="choose_checkbox_selected.png"/>
                             <connections>
                                 <action selector="selecAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="o6k-EZ-1qJ"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国石油" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyn-p4-Sr7">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支付宝支付" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyn-p4-Sr7">
                             <rect key="frame" x="56" y="139.5" width="186" height="21"/>
                             <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
                             <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -74,7 +75,7 @@
                                 <constraint firstAttribute="height" constant="24" id="Dpg-zY-flj"/>
                             </constraints>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国石油" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTc-pE-HW1">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信支付" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTc-pE-HW1">
                             <rect key="frame" x="56" y="184.5" width="186" height="21"/>
                             <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="15"/>
                             <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -86,6 +87,8 @@
                                 <constraint firstAttribute="height" constant="30" id="FLQ-Po-r3u"/>
                                 <constraint firstAttribute="width" constant="30" id="dV5-6J-Yg5"/>
                             </constraints>
+                            <state key="normal" image="choose_default.png"/>
+                            <state key="selected" image="choose_checkbox_selected.png"/>
                             <connections>
                                 <action selector="selecAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="q2g-7j-5fm"/>
                             </connections>
@@ -173,6 +176,7 @@
         </tapGestureRecognizer>
     </objects>
     <resources>
-        <image name="choose_default" width="24" height="24"/>
+        <image name="choose_checkbox_selected.png" width="24" height="24"/>
+        <image name="choose_default.png" width="24" height="24"/>
     </resources>
 </document>

@@ -18,7 +18,7 @@ typedef void(^WGImagePickerViewBlock)(UIView *view);
 
 @property (assign ,nonatomic) NSInteger maxCount;  ///< 最大照片数
 
-+ (void)manyImagePicker:(UIViewController *)vc Count:(NSInteger)count ScrollDirection:(UICollectionViewScrollDirection)scrollDirection Layout:(WGImagePickerViewBlock)layout Block:(WGImagePickerManyBlock)block; ///多张
++ (void)manyImagePicker:(UIViewController *)vc Images:(NSArray *)images Count:(NSInteger)count ScrollDirection:(UICollectionViewScrollDirection)scrollDirection Layout:(WGImagePickerViewBlock)layout Block:(WGImagePickerManyBlock)block ; ///多张
 
 + (void)singleImagePicker:(UIViewController *)vc Crop:(BOOL)crop Circle:(BOOL)circle Radius:(CGFloat)radius Block:(WGImagePickerSingleBlock)block; ///单张、头像
 

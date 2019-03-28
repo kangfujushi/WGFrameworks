@@ -50,9 +50,9 @@
     view.aliImageView.image = [UIImage imageWithContentsOfFile:[subBundle pathForResource:@"zhifubao" ofType:@"png"]];
     view.wechatImageView.image = [UIImage imageWithContentsOfFile:[subBundle pathForResource:@"weixinzhifu" ofType:@"png"]];
     [view.aliPay setImage:[UIImage imageWithContentsOfFile:[subBundle pathForResource:@"choose_default" ofType:@"png"]] forState:UIControlStateNormal];
-    [view.aliPay setImage:[UIImage imageWithContentsOfFile:[subBundle pathForResource:@"choose_checkbox_selected" ofType:@"png"]] forState:UIControlStateNormal];
-    [view.aliPay setImage:[UIImage imageWithContentsOfFile:[subBundle pathForResource:@"choose_default" ofType:@"png"]] forState:UIControlStateNormal];
-    [view.wechatPay setImage:[UIImage imageWithContentsOfFile:[subBundle pathForResource:@"choose_checkbox_selected" ofType:@"png"]] forState:UIControlStateNormal];
+    [view.aliPay setImage:[UIImage imageWithContentsOfFile:[subBundle pathForResource:@"choose_checkbox_selected" ofType:@"png"]] forState:UIControlStateSelected];
+    [view.wechatPay setImage:[UIImage imageWithContentsOfFile:[subBundle pathForResource:@"choose_default" ofType:@"png"]] forState:UIControlStateNormal];
+    [view.wechatPay setImage:[UIImage imageWithContentsOfFile:[subBundle pathForResource:@"choose_checkbox_selected" ofType:@"png"]] forState:UIControlStateSelected];
 }
 
 #pragma mark --- Actions
@@ -70,7 +70,7 @@
 }
 
 - (IBAction)selecAction:(UIButton *)sender {
-    self.aliPay.selected = sender==self.aliPay;
+    self.aliPay.selected = (sender==self.aliPay);
     self.wechatPay.selected = !self.aliPay.selected;
 }
 
