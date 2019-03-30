@@ -148,34 +148,36 @@ static NSString *shadowOpacityKey     = @"shadowOpacity";
 }
 
 - (void)setupRadius:(UIBezierPath *)maskPath {
-    CAShapeLayer *maskLayer = [[CAShapeLayer alloc]init];
-    maskLayer.frame = self.bounds;
-    maskLayer.path = maskPath.CGPath;
-    self.layer.mask = maskLayer;
-    
-    maskPath.lineWidth = self.borderWidth;
-    switch (self.ZNEffectType) {
-        case 1:
-            UIGraphicsBeginImageContext(self.bounds.size);
-            [self.borderColor setStroke];
-            [maskPath stroke];
-            UIGraphicsEndImageContext();
-            break;
-        case 2:
-            UIGraphicsBeginImageContext(self.bounds.size);
-            [self.borderColor setStroke];
-            [maskPath stroke];
-            UIGraphicsEndImageContext();
-            break;
-        default:
-            break;
-    }
-   
-    if (self.fill) {
-        // 如果是实心圆，设置填充颜色
-        [self.borderColor setFill];
-        // 填充圆形
-        [maskPath fill];
+    if (![NSStringFromClass(self.class) isEqualToString:@"_UITextFieldContentView"]) {
+        CAShapeLayer *maskLayer = [[CAShapeLayer alloc]init];
+        maskLayer.frame = self.bounds;
+        maskLayer.path = maskPath.CGPath;
+        self.layer.mask = maskLayer;
+        
+        maskPath.lineWidth = self.borderWidth;
+        switch (self.ZNEffectType) {
+            case 1:
+                UIGraphicsBeginImageContext(self.bounds.size);
+                [self.borderColor setStroke];
+                [maskPath stroke];
+                UIGraphicsEndImageContext();
+                break;
+            case 2:
+                UIGraphicsBeginImageContext(self.bounds.size);
+                [self.borderColor setStroke];
+                [maskPath stroke];
+                UIGraphicsEndImageContext();
+                break;
+            default:
+                break;
+        }
+        
+        if (self.fill) {
+            // 如果是实心圆，设置填充颜色
+            [self.borderColor setFill];
+            // 填充圆形
+            [maskPath fill];
+        }
     }
 }
 
