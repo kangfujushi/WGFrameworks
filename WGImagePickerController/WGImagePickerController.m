@@ -644,7 +644,8 @@
         NSLog(@"location:%@",phAsset.location);
     }
     if (self.singleBlock) {
-        self.singleBlock(image);
+        id obj = asset;
+        self.singleBlock(image,[obj filename]);
     } else if (self.manyBlock) {
         self.manyBlock(_selectedPhotos);
     }
@@ -684,7 +685,7 @@
 // photos数组里的UIImage对象，默认是828像素宽，你可以通过设置photoWidth属性的值来改变它
 - (void)imagePickerController:(TZImagePickerController *)picker didFinishPickingPhotos:(NSArray<UIImage *> *)photos sourceAssets:(NSArray *)assets isSelectOriginalPhoto:(BOOL)isSelectOriginalPhoto infos:(NSArray<NSDictionary *> *)infos {
     if (self.singleBlock) {
-        self.singleBlock(photos.firstObject);
+        self.singleBlock(photos.firstObject,[assets.firstObject filename]);
         [self removeFromParentViewController];
     }
     if (self.manyBlock) {

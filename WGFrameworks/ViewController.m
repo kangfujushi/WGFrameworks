@@ -12,7 +12,8 @@
 #import <WGPhotoBrowser/WGPhotoBrowser.h>
 #import <WGDatePickerView/WGDatePickerView.h>
 #import <WGCycleScrollView/WGCycleScrollView.h>
-#import <WGImagePickerController/WGImagePickerController.h>
+//#import <WGImagePickerController/WGImagePickerController.h>
+//#import "WGImagePickerController.h"
 
 
 @interface ViewController ()
@@ -39,20 +40,19 @@
     
 //    [[[WSDatePickerView alloc] initWithDateStyle:DateStyleShowYearMonthDayHourMinute scrollToDate:[NSDate date] CompleteBlock:^(NSDate *date) {
 //    }] show];
+    [WGImagePickerController singleImagePicker:self Crop:NO Circle:NO Radius:0 Block:^(UIImage * _Nonnull image ,NSString *name) {
+        NSLog(@"");
+    }];
     
-//    [WGImagePickerController singleImagePicker:self Crop:NO Circle:NO Radius:0 Block:^(UIImage * _Nonnull image) {
+//    [WGImagePickerController manyImagePicker:self Images:@[@"http://1.youzhanmall.com/./uploads/2019032733475.png",@"http://1.youzhanmall.com/./uploads/2019032710970.png"] Count:20 ScrollDirection:UICollectionViewScrollDirectionHorizontal Layout:^(UIView * _Nonnull view) {
+//        [self.view addSubview:view];
+//        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.left.right.centerY.equalTo(self.view);
+//            make.height.mas_equalTo(view.mas_width).multipliedBy(0.33);
+//        }];
+//    } Block:^(NSArray * _Nonnull images) {
 //        NSLog(@"asd");
 //    }];
-    
-    [WGImagePickerController manyImagePicker:self Images:@[@"http://1.youzhanmall.com/./uploads/2019032733475.png",@"http://1.youzhanmall.com/./uploads/2019032710970.png"] Count:20 ScrollDirection:UICollectionViewScrollDirectionHorizontal Layout:^(UIView * _Nonnull view) {
-        [self.view addSubview:view];
-        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.right.centerY.equalTo(self.view);
-            make.height.mas_equalTo(view.mas_width).multipliedBy(0.33);
-        }];
-    } Block:^(NSArray * _Nonnull images) {
-        NSLog(@"asd");
-    }];
     
 //    [HUPhotoBrowser showFromImageView:[UIImageView new] withImages:@[] atIndex:0];
 }
