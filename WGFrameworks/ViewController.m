@@ -40,9 +40,9 @@
     
 //    [[[WSDatePickerView alloc] initWithDateStyle:DateStyleShowYearMonthDayHourMinute scrollToDate:[NSDate date] CompleteBlock:^(NSDate *date) {
 //    }] show];
-    [WGImagePickerController singleImagePicker:self Crop:NO Circle:NO Radius:0 Block:^(UIImage * _Nonnull image ,NSString *name) {
-        NSLog(@"");
-    }];
+//    [WGImagePickerController singleImagePicker:self Crop:NO Circle:NO Radius:0 Block:^(UIImage * _Nonnull image ,NSString *name) {
+//        NSLog(@"");
+//    }];
     
 //    [WGImagePickerController manyImagePicker:self Images:@[@"http://1.youzhanmall.com/./uploads/2019032733475.png",@"http://1.youzhanmall.com/./uploads/2019032710970.png"] Count:20 ScrollDirection:UICollectionViewScrollDirectionHorizontal Layout:^(UIView * _Nonnull view) {
 //        [self.view addSubview:view];
