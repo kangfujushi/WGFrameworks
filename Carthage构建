@@ -1,4 +1,4 @@
-cd ~/Desktop/WGFrameworks
+cd $(dirname $0)
 carthage build --no-skip-current
 cd ./Carthage/Build/iOS/
 find ./ -type f -name "*.bcsymbolmap" -exec rm -rf {} \;
